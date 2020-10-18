@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+ <!-- ios support -->
+<link rel="apple-touch-icon" href="images/icons/web-icon.png" />
+<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+<meta name="theme-color" content="#db4938" />
+</head>
+<body>
+	<div class="mobile-screen">
+	   <div class="mobile-outer-screen">
+		   <div class="mobile-outer-upscreen"></div>
+			 <div class="mobile-outer-downscreen"></div>
+       </div>
+       
+      <div class="mobile-screen__numbers-screen">
+             
+              <div class=first-row>
+                        <div class="button btn-left ">
+                            <div class="txt  txt-left-fixed" onclick="myFunction(this)">
+                                <div class="number" >1</div> 
+                                <div class="button__btn1-line"></div>
+                                <img class="voicemail" src="images/voicemail.png">
+                                 
+                            </div>
+                        </div>
+                      
+                    
+                        <div class="button " >
+                            <div class="txt" onclick="myFunction(this)">
+                                <div class="number"  >2</div> 
+                                 <span class="small">
+                                    <p>
+                                        abc</p>
+                                </span>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="button   btn-right" >
+                            <div class="txt txt-right txt-right-fixed" onclick="myFunction(this)">
+                                 <span class="small">
+                                    <p>
+                                        def</p>
+                                </span>
+                                <div class=" number number-right" >3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=second-row>
+                        <div class="button   btn-left" >
+                            <div class="txt txt-left-fixed" onclick="myFunction(this)">
+                                <div class="number" >4</div>
+                                 <span class="small">
+                                    <p>
+                                        ghi</p>
+                                </span>
+                            </div>
+                        </div>
+                   
+                            <div class="button  " >
+                            <div class="txt" onclick="myFunction(this)">
+                                <div class="number" >5</div>
+                                 <span class="small">
+                                    <p>
+                                        jkl</p>
+                                </span>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="button  btn-right" >
+                            <div class="txt txt-right txt-right-fixed" onclick="myFunction(this)">
+                                
+                                 <span class="small">
+                                    <p>
+                                        mno</p>
+                                </span>
+                                <div class="number number-right" >6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-row">
+                        <div class="button  btn-left" >
+                            <div class="txt txt-left-fixed" onclick="myFunction(this)">
+                                <div class="number" >7</div>
+                                 <span class="small">
+                                    <p>
+                                        pqrs</p>
+                                </span>
+                            </div>
+                        </div>
+                    
+                        <div class="button " >
+                            <div class="txt" onclick="myFunction(this)">
+                                <div class="number" >8</div>
+                                <span class="small">
+                                    <p>
+                                        tuv</p>
+                                </span>
+                            </div>
+                        </div>
+                    
+                   
+                        <div class="button  btn-right" >
+                            <div class="txt txt-right txt-right-fixed" onclick="myFunction(this)">
+                                
+                                 <span class="small">
+                                    <p>
+                                        wxyz</p>
+                                </span>
+                                <div class="number number-right" >9</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-row">
+                        <div class="button btn-left">
+                            <div class="txt txt-left-fixed" onclick="myFunction(this)">
+                               <div class="number"> *</div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="button " >
+                            <div class="txt " onclick="myFunction(this)">
+                               <div class="number"  >0</div>
+                              
+                            </div>
+                        </div>
+                  
+                    
+                        <div class="button  btn-right">
+                            <div class="txt txt-right txt-right-fixed" onclick="myFunction(this)">
+                              <div class="number number-right">#</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </div>
+     
+
+        <div class="mobile-middle-screen">
+            <div class="mobile-middle-upscreen"></div>
+            <div class="mobile-middle-downscreen"></div>
+          </div>
+        <div class="screen-mode " >
+    <div class="call button" onclick="callFunction(this)">
+      <div class="circle"></div>
+      <img class="img-call" src="images/call.png">
+     
+      </div>
+     <div class="button-on-container">
+      <div class="button-on "></div>
+    </div>
+      
+      
+     
+      <div class="call-cancel button" onclick="callOffFunction(this)">
+       <div class="circle circle-cancel"></div>
+       <img class="img-call-cancel" src="images/call-cancel.png">
+     </div>
+  </div>
+              <div class="mobile-inner-screen">
+                
+
+                 <div class="mobile-inner-upscreen">
+
+                   <div class="mobile-brand">
+                     <p class="mobile-brand__name">NOKIA</p>
+                 </div>
+                  <div class="screen-status">
+                   <img class="wifi-img" src="images/wifi.png">
+                   <img class="bluethooth" src="images/bluetooth.png">
+                    <p class="generation">4G</p>
+                    <img class="antena" src="images/antena.png">
+                    <img class="battery" src="images/battery.png">
+                    
+                    <p class="time">10:33</p>
+                  </div>
+                  </div>
+                 <div class="mobile-inner-downscreen">
+                  
+    <img class="icons icon-1" src="images/1.png">
+    <img class="icons icon-2" src="images/2.jpg">
+    <img class="icons icon-3" src="images/3.jpg">
+    <img class="icons icon-4" src="images/4.jpg">
+    <img class="icons icon-5" src="images/5.jpg">
+    <img class="icons icon-6" src="images/6.jpg">
+    <img class="icons icon-7" src="images/7.jpg">
+    <img class="icons icon-8" src="images/8.jpg">
+    <img class="icons icon-9" src="images/9.jpg">
+    <a class="callLink" href="tel:123-456-789" style="color: white;width:100%;font-size:20px;margin-left:25px; visibility: hidden; margin:-400%"> ClickToCall</a>
+    <input class="telNumber" type="text"  value="">
+  </div>
+ </div>
+        
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="code.js"></script>
+<script src="serviceWorker.js"></script>
+
+ </body>
+</html>

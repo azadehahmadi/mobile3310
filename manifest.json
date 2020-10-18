@@ -1,0 +1,17 @@
+{
+   "name": "mobile'App",
+  "short_name": "mobile'App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/icon1.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+    
+  ]
+}
